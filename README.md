@@ -32,7 +32,12 @@ To get started with this project locally, follow these steps:
 
    ```
 
-2. Clone the repository:
+2. Move to the folder:
    ```bash
    cd canvas-drawing-app
+   ```
+
+4.Run the project:
+   ```bash
+   npm run dev
    ```
