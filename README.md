@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Canvas Drawing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web-based canvas application that allows users to draw, move, zoom, and interact with various elements such as rectangles, lines, and text. The app provides a variety of features to create, select, and manipulate objects on the canvas.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Drawing Tools**:
+  - **Rectangle Tool**: Draws a rectangle on the canvas.
+  - **Pencil Tool**: Freehand drawing with a pencil tool.
+  - **Line Tool**: Draw straight lines between two points.
+  - **Text Tool**: Allows the user to place text at any position on the canvas.
+- **Selection & Movement**:
 
-## Expanding the ESLint configuration
+  - Select and move objects (rectangles, lines, and text) around the canvas.
+  - Select multiple items and move them as a group.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Zooming**:
 
-- Configure the top-level `parserOptions` property like this:
+  - Zoom in and out of the canvas for a closer or wider view of the drawing.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Panning**:
+  - Pan the canvas to explore different areas of the drawing.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To get started with this project locally, follow these steps:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository:
+
+   ```bash
+   https://github.com/aman97703/draw-canvas.git
+
+   ```
+
+2. Clone the repository:
+   ```bash
+   cd canvas-drawing-app
+   ```
