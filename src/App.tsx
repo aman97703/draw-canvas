@@ -139,7 +139,6 @@ const App = () => {
   useEffect(() => {
     const panOrZoomFunction = (e: WheelEvent) => {
       if (pressedKeys.has("Meta") || pressedKeys.has("Control")) {
-        console.log("hiii");
         onZoom(e.deltaY * -0.01);
       } else {
         setPanOffset((prev) => ({
