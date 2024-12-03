@@ -37,7 +37,7 @@ To get started with this project locally, follow these steps:
    cd canvas-drawing-app
    ```
 
-4.Run the project:
+3. Run the project:
    ```bash
    npm run dev
    ```
